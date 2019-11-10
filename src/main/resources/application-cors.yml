@@ -1,0 +1,15 @@
+cors:
+  origins:
+    - '*'
+  methods:
+    - GET
+    - POST
+    - PUT
+    - PATCH
+    - OPTIONS
+    - DELETE
+  headers:
+    - Origin
+    - X-Requested-With
+    - Content-Type
+    - Accept

@@ -1,0 +1,32 @@
+### event 생성 성공
+POST {{host}}/api/events
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "test_event",
+  "description": "test_event_description",
+  "location": "gangnam",
+  "price": 0,
+  "startAt": "2019-11-01T18:36:48.819948",
+  "endAt": "2019-11-09T18:36:48.819948"
+}
+
+### event 생성 실패
+POST {{host}}/api/events
+Content-Type: application/json
+
+{
+  "name": "test_event",
+  "description": "test_event_description",
+  "location": "gangnam",
+  "price": 0,
+  "startAt": "2019-11-10T18:36:48.819948",
+  "endAt": "2019-11-01T18:36:48.819948"
+}
+
+### event 조회
+GET {{host}}/api/events
+Content-Type: application/json
+
+###

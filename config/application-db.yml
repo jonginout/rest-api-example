@@ -1,0 +1,5 @@
+datasource:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3307/gsk?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul&useSSL=false&zeroDateTimeBehavior=convertToNull
+  username: root
+  password: 111111

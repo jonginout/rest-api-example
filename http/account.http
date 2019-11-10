@@ -1,0 +1,10 @@
+### account 생성 성공
+POST {{host}}/accounts
+Content-Type: application/json
+
+{
+  "email": "aaa",
+  "password": "111"
+}
+
+###

@@ -1,0 +1,10 @@
+### 로그인
+POST {{host}}/oauth/token
+Authorization: Basic Z3NrOnBhc3M=
+Content-Type: application/x-www-form-urlencoded
+
+username=aaa&password=111&grant_type=password
+
+> {% client.global.set("token", response.body.access_token) %}
+
+###

@@ -1,0 +1,140 @@
+= Event API
+jongin;
+:snippets: ../../../build/generated-snippets
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+
+== link:./index.html[홈]
+
+== Event 생성
+
+=== Request
+
+*CURL*
+
+include::{snippets}/events/create/curl-request.adoc[]
+
+*Request Body*
+
+include::{snippets}/events/create/request-body.adoc[]
+
+*Request Fields*
+
+include::{snippets}/events/create/request-fields.adoc[]
+
+*Request HTTP Example*
+
+include::{snippets}/events/create/http-request.adoc[]
+
+=== Response
+
+*Response Body*
+
+include::{snippets}/events/create/response-body.adoc[]
+
+*Response Fields*
+
+include::{snippets}/events/create/response-fields.adoc[]
+
+*Response HTTP Example*
+
+include::{snippets}/events/create/http-response.adoc[]eInspect/end/http-response.adoc[]
+
+== Event 목록 조회
+
+=== Request
+
+*CURL*
+
+include::{snippets}/events/list/curl-request.adoc[]
+
+*Request Parameters*
+
+include::{snippets}/events/list/request-parameters.adoc[]
+
+*Request HTTP Example*
+
+include::{snippets}/events/list/http-request.adoc[]
+
+=== Response
+
+*Response Body*
+
+include::{snippets}/events/list/response-body.adoc[]
+
+*Response Fields*
+
+include::{snippets}/events/list/response-fields.adoc[]
+
+*Response HTTP Example*
+
+include::{snippets}/events/list/http-response.adoc[]
+
+== Event 단건 조회
+
+=== Request
+
+*CURL*
+
+include::{snippets}/events/detail/curl-request.adoc[]
+
+*Request Parameters*
+
+include::{snippets}/events/detail/path-parameters.adoc[]
+
+*Request HTTP Example*
+
+include::{snippets}/events/detail/http-request.adoc[]
+
+=== Response
+
+*Response Body*
+
+include::{snippets}/events/detail/response-body.adoc[]
+
+*Response Fields*
+
+include::{snippets}/events/detail/response-fields.adoc[]
+
+*Response HTTP Example*
+
+include::{snippets}/events/detail/http-response.adoc[]
+
+== Event 생성
+
+=== Request
+
+*CURL*
+
+include::{snippets}/events/update/curl-request.adoc[]
+
+*Request Parameters*
+
+include::{snippets}/events/update/path-parameters.adoc[]
+
+*Request Body*
+
+include::{snippets}/events/update/request-body.adoc[]
+
+*Request HTTP Example*
+
+include::{snippets}/events/update/http-request.adoc[]
+
+=== Response
+
+*Response Body*
+
+include::{snippets}/events/update/response-body.adoc[]
+
+*Response Fields*
+
+include::{snippets}/events/update/response-fields.adoc[]
+
+*Response HTTP Example*
+
+include::{snippets}/events/update/http-response.adoc[]eInspect/end/http-response.adoc[]
