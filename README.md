@@ -9,3 +9,13 @@ docker-compose -f ./depoly/dev/docker-compose.yml up -d
 * 스프링 HATEOAS
 * 스프링 REST Docs
 * 스프링 시큐리티 OAuth2
+
+---
+### 추후 개발될 내용 및 아키텍쳐
+
+- gRPC
+- Spring boot
+    - JPA
+    - hateoas
+- k8s
+    - helm
